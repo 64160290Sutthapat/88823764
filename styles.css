@@ -54,7 +54,7 @@ body{
 
 .wrapper .left p{
     font-size: 19px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .wrapper .right{
@@ -112,38 +112,24 @@ body{
 .wrapper .right .info_data .data h4,
 .wrapper .right .profile_data  .data h4{
     color: #ac512a;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .wrapper .right .info_data .data p,
 .wrapper .right .profile_data  .data p{
     font-size: 10 px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     color: #000000;
 }
 
 
-.wrapper .right .social i{
-    color: #000000;
-    font-size: 1.3rem;
-    
-}
-
-.wrapper .right .social button{
-    margin-left:     10px;
+.wrapper .right .social img{
+    margin-left: 15px;
     color:#ec9b5b;
-    background: #ec9b5b;
+    background: #ffffff;
     border: none;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    cursor: pointer;
-}
-
-.wrapper .right .social button:hover{
-    background: #ffffff;
-}
-
-.wrapper .right .social button:hover i{
-    color: #fff;
+    cursor: pointer;    
 }
