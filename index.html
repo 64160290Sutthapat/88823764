@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    
+</head>
+<body>
+    <h1 id="myh1" onclick="console.log('focus')">JavaScript</h1>
+    <input type="text" id="fname" value="my fname"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //document.querySelector('#myh1')
+            $('#myh1').append("<h1>2</h1>")
+        });
+
+        $(document).ready(() => {
+            //document.querySelector('#myh1')
+            $('#myh1').append("<h1>3</h1>")
+        });
+    </script>
+    <script>
+    let myVal = undefined || null || 1;
+    let myVal2 = a == undefined ? "1" : a
+    /*
+    if(a == undefined){
+        myVal2 = 1
+    }else{
+        myVal2 = a
+    }
+    */
+   myVal = a || console.log('error myVal = a')
+    console.log(myVal)
+    console.log(myVal2)    
+    </script>
+    <script>
+        /*
+        for(let myLoop = 1;myLoop<10;myLoop++)
+            console.log(myLoop)
+        */
+    </script>
+    <script>
+        // DOM
+        /*
+        let myh1 = document.querySelector("#myh1")
+        let myh1_2 = document.getElementById('myh1')
+        myh1_2.innerHTML = "Myh1 #2"
+        let myfname = document.getElementById('fname')
+        console.log(myfname.value)
+        console.log(myh1.innerHTML)
+        document.querySelector('body').append("<h1> my code </h1>")
+        let myVal = "Hello world"
+        var myVal2 = "My Var"
+        const myVal3 = "Const My Val"
+        console.log(myVal)
+        console.log(myVal2)
+        console.log(myVal3)
+        console.log(1+2)
+        myVal = 123
+        console.log("test" + "hello" , myVal)
+        console.log(myVal)
+        console.log(myVal3)
+        console.log(1+1)
+        */
+    </script>
+    <script>
+    /*
+        console.log(myVal)
+        */
+    </script>
+</body>
+</html>
